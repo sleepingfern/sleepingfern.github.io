@@ -1,80 +1,353 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="./css/index.css" type="text/css">
-<title>客家六腔</title>
+    <title>傳真快</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 
-<body>
-<div class="wrap">
-    <div class="header">
-        <div class="header_nav">
-            <ul>
-                <li title="訊息公告">
-                    <button type="button" class="header_1"></button>
+<body onscroll="myFunction()">
+    
+    
+    <div id="navTop" class="nav">
+        <a class="logo" href="" tabindex="1">
+            <img  class="logoimg" alt="傳真快LOGO" src="img/logo.png">
+        </a>
+        <div class="mainmenu">
+            <ul class="list">
+                <li class="navlia">
+                    <a tabindex="13">產品介紹</a>
+                    <div class="hoverbox">
+                        <ul class="hoverbox-sub">
+                            <li>
+                                <p class="menu-title">產品類別A</p>
+                                <ul>
+                                    <li><a href="">產品1</a></li>
+                                    <li><a href="">產品2</a></li>
+                                    <li><a href="">產品3</a></li>
+                                    <li><a href="">產品4</a></li>
+                                    <li><a href="">產品5</a></li>
+                                    <li><a href="">產品6</a></li>
+                                    <li><a href="">產品7</a></li>
+                                    <li><a href="">產品8</a></li>
+                                    <li><a href="">產品9</a></li>
+                                    <li><a href="">產品10</a></li>
+                                    <li><a href="">產品11</a></li>
+                                    
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
                 </li>
-                <li title="辭典說明">
-                    <button type="button" class="header_2"></button>
+                <li class="navlic">
+                    <a tabindex="14" href="news.html">最新消息</a>
+<!--
+                    <div class="hoverbox">
+                        <ul class="hoverbox-sub">
+                            <li>
+                                <a class="menu-title">最新消息</a>
+                                <ul>
+                                    <li><a href="">最新消息</a></li>
+                                    <li><a href="">重要活動</a></li>
+                                    <li><a href="">醫學院公佈欄</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <a class="menu-title">活動資訊</a>
+                            </li>
+                            <li>
+                                <a class="menu-title">國際交流</a>
+                            </li>
+                        </ul>
+                    </div>
+-->
                 </li>
-                <li title="分類索引">
-                    <button type="button" class="header_3"></button>
+                
+                <li class="navlib">
+                    <a tabindex="15">技術支援</a>
+                    <div class="hoverbox">
+                        <ul class="hoverbox-sub">
+                            <li>
+                                <p class="menu-title">主程式</p>
+                                <ul>
+                                    <li><a href="">電腦版主程式1</a></li>
+                                    <li><a href="">電腦版主程式2</a></li>
+                                    <li><a href="">電腦版主程式3</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <p class="menu-title">必要軟體</p>
+                                <ul>
+                                    <li><a href="">必要軟體1</a></li>
+                                    <li><a href="">必要軟體2</a></li>
+                                    <li><a href="">必要軟體3</a></li>
+                                    <li><a href="">必要軟體4</a></li>
+                                    
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
                 </li>
-                <li title="辭典附錄">
-                    <button type="button" class="header_4"></button>
+                
+                
+                <li class="navlid">
+                    <a tabindex="16" href="intro.html">公司簡介</a>
+                    <div class="hoverbox">
+                        <ul class="hoverbox-sub">
+                            <li>
+                                <a class="menu-title">公司沿革</a>
+                                <ul>
+                                    <li><a href="">歷史沿革</a></li>
+                                    <li><a href="">公司願景</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p class="menu-title">關於公司</p>
+                                <ul>
+                                    <li><a href="">臺灣分部</a></li>
+                                    <li><a href="">中國分部</a></li>
+                                    <li><a href="">越南分部</a></li>
+                                    <li><a href="">泰國分部</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p class="menu-title">業務服務</p>
+                                <ul>
+                                    <li><a href="">服務項目</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
                 </li>
-                <li title="學習資源">
-                    <button type="button" class="header_5"></button>
+                <li class="navlie">
+                    <a tabindex="17" href="contect.html">聯絡我們</a>
+<!--
+                    <div class="hoverbox">
+                        <ul class="hoverbox-sub">
+                            <li>
+                                <a class="menu-title">醫學教育</a>
+                                <ul>
+                                    <li><a href="">醫學教育</a></li>
+                                    <li><a href="">共同教育及教師培訓中心</a></li>
+                                    <li><a href="">醫學院課程地圖</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="menu-title">圖書分館</a>
+                                <ul>
+                                    <li><a href="">圖書分館</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+-->
+                </li>
+                <li class="navlif">
+                    <a tabindex="18" href="deposit.html">我要儲值</a>
+
                 </li>
             </ul>
         </div>
-        <!--end of header_nav-->
         
-        <div class="breadcrumb">
-            麵包屑放這裡
+        <div class="upmenu" >
+            <ul class="uplist">
+                <li><a class="" href="" tabindex="6">繁體中文</a></li>
+                <li><a class="" href="" tabindex="7">簡体中文</a></li>
+                <li><a class="" href="" tabindex="8">Tiếng Việt</a></li>
+                <li><a class="" href="" tabindex="9">ไทย</a></li>
+                <li><a class="" href="" tabindex="10">Q &amp; A</a></li>
+<!--
+                <li><a class="" href="" tabindex="11">聯繫我們</a></li>
+                <li><a class="" href="" tabindex="12">English</a></li>
+-->
+            </ul>
         </div>
-        <!--end of breadcrumb-->
-    </div>
-    <!--end of header-->
-    
-    <div class="main">
-        <div class="main-search">
-            <form id="form_1" class="form_1" name="form_1" method="get" action="">
-                
-                    <input class="input" type="text" name="search" placeholder="請輸入關鍵字">
-                
-                <span>
-                    <input class="input-checkbox" type="checkbox" name="checkbox_1" value="詞目音讀">詞目音讀
-                    <input type="checkbox" name="checkbox_2" value="對應國語">對應國語
-                    <input type="checkbox" name="checkbox_3" value="全文">全文</span>
-            </form>
-            <form id="form_2" class="form_2" name="form_2" method="get" action="">  
-
-               <input type="submit" value="" name="search_btn" id="search_btn" class="search_btn"><br>
-               <input type="submit" value="" name="searchmore_btn" id="searchmore_btn" class="searchmore_btn">
-            </form>
-        </div>
-        <!--end of main-search-->
-
-
-
-        <div class="index_content">
-                <form id="form_3" class="form_3" name="form_3">
-                    <input type="text" class="index_content_inputtext" value="媽媽" name="howtosayinhaka" id="howtosayinhaka">
-                </form>
-        </div>
-        <!--end of index_content-->
+        
+      
         
     </div>
-    <!--end of main-->
+
+    <script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      document.getElementById("navTop").className = "nav scrollnav"
+  } else {
+    document.getElementById("navTop").className = "nav";
+  }
+}
+    </script>
+
+    <!--nav-->
+    
+    <section class="main-fullpic">
+        <div id="pic-1" class="tabcontent">
+            <div class="pic-description">
+                <h2>世界最強機種來襲</h2>
+                <p>以你現有的 iPhone 換購，獲享最高達 NT$11,910 的折抵優惠。</p>
+                <a href="">近一步了解></a>
+            </div>
+            <img alt="welcomn pic1" src="img/items-4.jpg">
+        </div>
+        <div id="pic-2" class="tabcontent">
+            <div class="pic-description">
+                <h2>最新消息標題</h2>
+                <p>可以放置任意文字、圖片或是<a href="">連結</a></p>
+            </div>
+            <img class="fullpic" alt="welcomn pic2" src="img/items-8.jpg">
+        </div>
+        <div id="pic-3" class="tabcontent">
+            <div class="pic-description">
+                <h2>最新消息標題</h2>
+                <p>使用兩、三段描述文字放在此都會很好看</p>
+                <p>這是第二段描述文字</p>
+            </div>
+            <img class="fullpic" alt="welcomn pic3" src="img/items-5.jpg">
+        </div>
+        <div class="tab-outter">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'pic-1')" id="defaultOpen">  </button>
+                <button class="tablinks" onclick="openCity(event, 'pic-2')"></button>
+                <button class="tablinks" onclick="openCity(event, 'pic-3')"></button>
+            </div>
+        </div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+    // Get the element with id="defaultOpen" and click on it
+
+    document.getElementById("defaultOpen").click();
+</script>
+    </section>
+    <section class="main-firstsection index">
+        <div class="firstsection threeN">
+            <div class="title-center">
+                <h1>快速便捷，最佳工具</h1>
+            </div>
+            <li data-scroll-reveal="enter top">
+                <img src="img/icon-sample.png" alt="">
+                <h2>強大的APP軟體開發</h2>
+                <p>App+整合IOS、Android兩大系統工程團隊，研發多種功能模組，幫助您降低成本，提升效益。</p>
+            </li>
+            <li data-scroll-reveal="enter top after 0.1s">
+                <img src="img/icon-sample.png" alt="">
+                <h2>強大的APP軟體開發</h2>
+                <p>App+整合IOS、Android兩大系統工程團隊，研發多種功能模組，幫助您降低成本，提升效益。</p>
+            </li>
+            <li data-scroll-reveal="enter top after 0.2s">
+                <img src="img/icon-sample.png" alt="">
+                <h2>強大的APP軟體開發</h2>
+                <p>App+整合IOS、Android兩大系統工程團隊，研發多種功能模組，幫助您降低成本，提升效益。</p>
+            </li>
+            
+        </div>
+        <div style="clear:both;"></div>
+    </section>
+    
+    <section class="main-secondsection">
+        <div class="secondsection twoN">
+            <div class="title-center">
+                <h1>功能簡潔，輕量快速</h1>
+            </div>
+            <li data-scroll-reveal="enter left">
+                <img src="img/items-3.png" alt="">
+            </li>
+            <li data-scroll-reveal="enter right after 0.1s">
+                <h2>標題文字</h2>
+                <p>這裡可以放入說明文字，這裡可以放入說明文字，這裡可以放入說明文字，這裡可以放入說明文字，這裡可以放入說明文字</p>
+                <a href="">看更多></a>
+            </li>
+        </div>
+        <div style="clear:both;"></div>
+    </section>
+    
+    <section class="main-firstsection">
+        <div class="firstsection twoN">
+            <div class="title-center">
+                <h1>一指神功，無遠弗屆</h1>
+            </div>
+            <li data-scroll-reveal="enter left" class="right">
+                <h2>標題文字</h2>
+                <p>這裡可以放入說明文字，這裡可以放入說明文字，這裡可以放入說明文字，這裡可以放入說明文字，這裡可以放入說明文字</p>
+                <a href="">看更多></a>
+            </li>
+            <li data-scroll-reveal="enter right after 0.1s">
+                <img src="img/items-3.png" alt="">
+            </li>
+        </div>
+        <div style="clear:both;"></div>
+    </section>
+    
+
+
+
+<script src="js/scrollReveal.js"></script> 
+<script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		(function(){
+		window.scrollReveal = new scrollReveal({reset: true});
+	})();
+};
+</script>
     
     
-    <div class="footer">
-        <p>中華民國教育部　版權所有©2017 Ministry of Education, R.O.C. All rights reserved.<a title="寫信給我們" href="mailto:test@test.com.tw" target="_blank"><button type="button" class="mailto" name="mailto"></button></a></p><br>
-        <p>最佳瀏覽解析度為1024*768以上　　線上人數：OOO　瀏覽人次：OOOO</p>
+    
+    
+    
+
+
+   
+    
+    <div class="footer">        
+        <div class="footer-info">
+            <div class="footer-left">
+                <p>Best viewed witth 1366X768 resolution</p>
+                <p>地址：這是公司地址</p>
+                <p>電話：這是公司聯絡電話&nbsp;&nbsp;|&nbsp;&nbsp;E-mail：信箱的地址</p>
+                
+            </div>
+            <div class="footer-right">
+                <div id="socialLink" class="sociallink">
+                    <a href="" rel="FB"></a>
+                    <a href="" rel="G+"></a>
+                    <a href="" rel="E-Mail"></a>
+                </div>
+            </div>
+        </div>
+        
+        
     </div>
-    <!--end of footer-->
-</div>
-<!--end of wrap-->
+    <script src="js/miller_code.js"></script>
+    
+    
+    
+    
+
+
+
+
+
+
+
 </body>
 </html>
