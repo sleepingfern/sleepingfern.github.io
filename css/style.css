@@ -882,3 +882,9 @@ height: 100%;
 }
 
 }
+
+.hoverbox-sub > li > ul > li::before {
+    border-left: 10px solid #335666;
+    position: absolute;
+    content: "\u0020";
+}
