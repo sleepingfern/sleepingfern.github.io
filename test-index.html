@@ -13,7 +13,17 @@
     <script>
 w3.includeHTML();
 </script>
-    
+    <script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      document.getElementById("navTop").className = "nav scrollnav"
+  } else {
+    document.getElementById("navTop").className = "nav";
+  }
+}
+    </script>
     <section class="main-firstsection">
         <div class="firstsection">
             <div class="full-center">
