@@ -1216,3 +1216,10 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     color: #666;
     font-size: 0.875em;
 }
+
+.half-pic{
+    width: 35vw;
+}
+.three-pic{
+    width: 120px;
+}
